@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+    <style>
+        body{
+            background-color: rgba(62,156,59,0.45);
+        }
+        input{
+            margin-top: 50px;
+            background-color: rgba(62,156,59,0.45);
+        }
+        .mainDiv{
+            margin-top: 50px;
+        }
+        .mainDiv > div {
+            border: 5px solid red;
+        }
+        .mainDiv > p {
+            color: rgba(168,45,68,0.45);
+        }
+        p {
+            color: aqua;
+        }
+        .circle{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 2px solid black;
+            margin-top: 30px;
+            background-color: yellow;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:link {
+           color: rgba(168,58,67,0.45);
+        }
+        a:visited {
+            color: black;
+        }
+        a:hover {
+            color: red ;
+        }
+        a:active {
+            color: yellow;
+        }
+        tr:first-child {
+            color: aqua;
+        }
+        tr:last-child {
+            color: red;
+        }
+        td:first-child {
+            background-color: deeppink;
+        }
+        tr:first-child td:last-child {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <nav style="height: 70px; background-color: rgba(45,16,67,0.92)">
+        <div style="display: flex">
+            <div style="font-size: 40px">
+                NEWS
+            </div>
+            <div style="font-size: 40px; padding-left: 50px">
+               LIFE
+            </div>
+            <div style="font-size: 40px; padding-left: 300px">
+                SPORT
+            </div>
+        </div>
+    </nav>
+    <input type="text"> <br>
+    <input type="text" style="background-color: red"> <br>
+    <div class="mainDiv">
+        <div>
+            <p>
+                1. First
+            </p>
+        </div>
+        <div>
+            <p>
+                2. Second
+            </p>
+        </div>
+        <div>
+            <p>
+                3. Third
+            </p>
+        </div>
+        <div>
+            <p>
+                4. Four
+            </p>
+        </div>
+        <p>
+            5. Five
+        </p>
+    </div>
+    <div class="circle"></div>
+    <div class="secondDiv">
+        <div>
+            <p>
+               <a href="https://vebrost.ru/blog/kakie-byvayut-sayty/">LINK TO</a>
+            </p>
+        </div>
+        <div>
+            <p>
+                <a href="https://ru.wix.com/">LINK TO</a>
+            </p>
+        </div>
+        <div>
+            <p>
+                <a href="https://www.1c-bitrix.ru/products/cms/projects/">LINK TO</a>
+            </p>
+        </div>
+        <div>
+            <p>
+                <a href="https://skillbox.ru/media/marketing/chto-takoe-vebsayt-kak-on-rabotaet-i-kak-sozdayut-sayty/">LINK TO</a>
+            </p>
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>SURNAME</th>
+                <th>GPA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>SERIK</td>
+                <td>SEROV</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>SERIK</td>
+                <td>SEROV</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>SERIK</td>
+                <td>SEROV</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
